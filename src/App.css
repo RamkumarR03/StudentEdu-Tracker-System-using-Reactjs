@@ -1,0 +1,163 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+.center{
+  text-align: center;
+}
+h1{
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  background-color: #0033a0;
+  color: white;
+  display: flex;
+  column-gap: 100px;
+  font-size: x-large;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+}
+img{
+  width: 100px;
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #0033a0;
+  width: 220px; 
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Full height */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1; 
+}
+
+.sidebar li {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-size: 18px; 
+  cursor: pointer;
+}
+
+.sidebar-icon {
+  width: 80px; 
+  height:80px;
+  margin-bottom: 10px; 
+}
+
+.dashboard {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: #fb1e05;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.purple {
+  background-color: #b308f6;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.green {
+  background-color: #11ef01;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px rgb(221, 220, 220);
+  justify-content: center;
+ 
+}
+
+.menu-item .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+p{
+  color: rgb(52, 51, 51);
+  font-weight: 600;
+}
+.sidebar li:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.menu-item:hover {
+  background-color: #fcdfdf;
+  box-shadow: 4px 4px 6px 2px rgb(200, 200, 200);
+  transform: translateY(-3px);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.sidebar-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  filter: brightness(1.2);
+}
+.header:hover {
+  background-color: #002080;
+  transition: background-color 0.3s ease;
+}
