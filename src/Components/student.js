@@ -31,7 +31,7 @@ function App() {
                         </li>
                         <li>
                             <img src={FinanceIcon} alt="Finance Management Icon" className="sidebar-icon" />
-                            Finance Management
+                            Functional Management
                         </li>
                         <li>
                             <img src={QualityIcon} alt="Quality Control Icon" className="sidebar-icon" />
@@ -86,7 +86,7 @@ function App() {
                         </div>
                         <div className="menu-item">
                             <div className="icon">📧</div>
-                            <p>SARS / EMAIL</p>
+                            <p>SMS / EMAIL</p>
                         </div>
                         <div className="menu-item">
                             <div className="icon">🏥</div>
